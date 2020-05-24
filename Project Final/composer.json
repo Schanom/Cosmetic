@@ -1,0 +1,12 @@
+{
+    "name": "root/phpPayPal",
+    "authors": [{
+        "name": "Brandon Landrum-Jeffries",
+        "email": "brandonlj8@gmail.com"
+    }],
+    "require": {
+        "league/omnipay": "^3.0",
+        "omnipay/PayPal": "^3.0"
+    }
+}
+

@@ -1,0 +1,164 @@
+html {
+        margin: 0 auto;
+        text-decoration: none!important;
+        max-width: 100%
+    }
+body {
+     background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+    }
+
+
+.backgroundcover-image {
+        width: auto;
+    }
+img.studio {
+        height: 100vh;
+        max-width: 100%;
+        z-index: 0;
+    }
+
+/* #### navbar start###### */
+.talbe-borded{
+    border:2px solid black;
+  }
+table.talbe-borded thead tr th{
+    border:1px solid black;
+}
+table.talbe-borded tbody tr td{
+    border:1px solid black;
+}
+
+#navbarText {
+        background-color: #95B8BF;
+    }
+#über{
+        font-size: 150%;
+        color: #2E5955 !important;
+        text-decoration: none;
+        position: relative
+    }
+#über:hover{
+        color: #A68549 !important;
+        text-decoration: none
+    }
+#login{
+        font-size: 150%;
+        color: #2E5955!important;
+        text-decoration: none;
+        position: relative
+    }
+#login:hover{
+        color: #A68549 !important;
+        text-decoration: none
+}
+#main{
+        padding: 0;
+        background-color: #95B8BF;
+    }
+.navbar-toggler {
+        border-color: #A68549;
+    }
+.navbar-toggler-icon {
+        background-color: #2E5955;
+    }
+#lol:hover{
+        background-color: #95B8BF;
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        border-radius: 20px
+    }
+/* #### navbar Ênde###### */
+/* #### content start###### */
+
+h2{
+        color: #2E5955;
+        background-color: #F2Da91;
+        margin-left: 35%;
+        margin-right: 35%;
+        border-radius: 35px
+    }
+
+/* #### content ende###### */
+/* #### footer start###### */
+
+.footeradress {
+        padding: 6% 2% 6% 2%;
+        font: Regular 16px/19px GillSans;
+        display: flex;
+        background-color: #2E5955;
+        color: white;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 230px;
+        text-align: center;
+    }
+.sum{
+        color: #2E5955;
+    }
+.footerlogo {
+        width: 227px;
+    }
+.subfooteradress {
+        font: Regular 16px/19px GillSans;
+        display: flex;
+        background-color: #95B8BF;
+        color: #2E5955;
+        width: 100%;
+        justify-content: space-around;
+    }
+.socialmedia {
+        padding-top: 1.5%;
+        align-content: center;
+    }
+img.fb {
+        width: 27px;
+    }
+img.ig {
+        width: 27px;
+    }
+.other {
+        padding-top: 5%;
+    }
+.content {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+.card {
+        width: 20%;
+        margin: 25px;
+        background-color: #F2DA91!important;
+        color:#A68549;
+        border-radius: 30px!important;
+    }
+.card:hover{
+        background-color: #95B8BF!important;
+        color: white;
+    }
+img{
+        border-radius: 30px!important
+    }
+
+/* #### footer ende###### */
+/* #### media start###### */
+
+@media only screen and (max-width: 1065px) and (min-width: 991px)   {
+    #navlogo{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    a {
+        padding-left: 48px !important;
+        padding-right: 48px !important;
+    }
+    img {
+        margin-left: 56px !important;
+    }
+}

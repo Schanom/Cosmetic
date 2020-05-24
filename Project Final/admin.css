@@ -1,0 +1,34 @@
+html body{
+	background-color: #95B8BF;
+	color: #2E5955 !important;
+	
+}
+
+.a_section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+table{
+	color: #2E5955 !important;
+}
+
+
+form{
+    border: white 2px solid;
+    padding: 15px;
+    text-align: right;
+
+}
+input{
+    width: 350px;
+}
+
+.editButton{
+	background-color: #F2DA91;
+	color: #2E5955 !important;
+}
+
+.deleteButton{
+	background-color: red;
+}

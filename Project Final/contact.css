@@ -1,0 +1,225 @@
+
+body {
+    background-image: url("img/Studioflip.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+    }
+.backgroundcover-image {
+        width: auto;
+    }
+img.studio {
+        height: 100vh;
+        width: 100%;
+        z-index: 0;
+    }
+
+/* #### navbar start###### */
+
+#navbarText {
+        background-color: #95B8BF;
+    }
+#über{
+        font-size: 150%;
+        color: #2E5955 !important;
+        text-decoration: none;
+        position: relative
+    }
+#über:hover{
+        color: #A68549 !important;
+        text-decoration: none
+    }
+#login{
+        font-size: 150%;
+        color: #2E5955!important;
+        text-decoration: none;
+        position: relative
+    }
+#login:hover{
+        color: #A68549 !important;
+        text-decoration: none
+}
+#main{
+        padding: 0;
+        background-color: #95B8BF;
+    }
+.navbar-toggler {
+        border-color: #A68549;
+    }
+.navbar-toggler-icon {
+        background-color: #2E5955;
+    }
+#lol:hover{
+        background-color: #95B8BF;
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        border-radius: 20px
+    }
+img {
+    margin-right: 0px;
+}
+
+/* #### navbar ende###### */
+
+/* #### content start###### */
+
+.my-form {
+    color: #305896;
+}
+.my-form .btn-default {
+    background-color: #305896;
+    color: #fff;
+    border-radius: 0;
+}
+.my-form .btn-default:hover {
+    background-color: #4498C6;
+    color: #fff;
+}
+.my-form .form-control {
+    border-radius: 0;
+}
+.btn {
+    background-color: #A68549;
+    color: white;
+}
+.btn:hover {
+    background-color: white;
+    color: #A68549;
+    border-color: #A68549
+}
+#lside {
+    background-color: #95B8BF;
+    padding-top: 15px;
+    border-radius: 30px;
+}
+#rside {
+    background-color: #F2Da91;
+    padding-top: 15px;
+    border-radius: 30px
+}
+h1 {
+    color: #A68549;
+}   
+
+/* #### content ende###### */
+/* #### footer start###### */
+
+.footeradress {
+        padding: 6% 2% 6% 2%;
+        font: Regular 16px/19px GillSans;
+        display: flex;
+        background-color: #2E5955;
+        color: white;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 230px;
+        text-align: center;
+    }
+.footerlogo {
+        width: 227px;
+    }
+.subfooteradress {
+        font: Regular 16px/19px GillSans;
+        display: flex;
+        background-color: #95B8BF;
+        color: #2E5955;
+        width: 100%;
+        justify-content: space-around;
+    }
+.socialmedia {
+        padding-top: 1.5%;
+        align-content: center;
+    }
+img.fb {
+        width: 27px;
+    }
+img.ig {
+        width: 27px;
+    }
+.other {
+    padding-top: 5%;
+}
+
+/* #### footer ende###### */
+/* #### Media start###### */
+
+@media only screen and (max-width: 1065px) and (min-width: 991px)   {
+    #navlogo{
+        width: 250px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    iframe {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    iframe {
+        width: 451px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    iframe {
+        width: 330px;
+    }
+    a {
+        padding-left: 48px !important;
+        padding-right: 48px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 500px){
+    #navlogo {
+        margin-left: 56px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    iframe {
+        width: 240px;
+    }
+    .footerlogo{
+        display: none;
+    }
+    .adressb{
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:576px) {
+    #lside {
+        display: none !important;
+    }
+    iframe {
+        display: none !important;
+    }
+    #rside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #navlogo {
+    margin: auto;
+}
+    .adressb{
+        font-size: 8px
+    }
+    .footeradress{
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:375px) {
+    #navlogo {
+        width: 200px
+}
+}
+
+
